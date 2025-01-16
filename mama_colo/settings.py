@@ -19,6 +19,7 @@ SECRET_KEY = 'django-insecure-ld3h6p=+rc#8&%@jlabg^2^^a(tul04%00%iu25r%%4+l98y5@
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://mama-colo.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
